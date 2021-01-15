@@ -1,5 +1,6 @@
-from django.conf.urls import patterns, include, url
+from django.conf.urls import include, url
+from research.views import research_index
 
-urlpatterns = patterns('research.views',
-    url(r'^$','research_index',name='research_index'),
-)
+urlpatterns = [
+    url(r'^$', research_index, name='research_index'),
+]

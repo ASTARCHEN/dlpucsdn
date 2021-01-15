@@ -1,6 +1,7 @@
-from django.conf.urls import patterns, include, url
+from django.conf.urls import include, url
+from assignment.views import assignment_index, assignment_issue
 
-urlpatterns = patterns('assignment.views',
-    url(r'^$','assignment_index',name='assignment_index'),
-    url(r'^issue/$','assignment_issue',name='issue')
-)
+urlpatterns = [
+    url(r'^$', assignment_index, name='assignment_index'),
+    url(r'^issue/$', assignment_issue, name='issue')
+]

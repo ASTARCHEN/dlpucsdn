@@ -1,2 +1,9 @@
-##关于
-由python的django框架开发，设计到的其他的技术
+# 官网-下载站
+
+
+
+
+### 参考资料
+
+[1] https://github.com/freedream520/dlpucsdn
+
