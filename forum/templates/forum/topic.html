@@ -2,7 +2,7 @@
 {% load humanize %}
 {% block nav %}{% include 'navbar.html' %}{% endblock %}
 {% block main %}
-    <div style="background-image: url('/static/images/pixels.png');background-repeat: repeat;background-attachment: fixed;background-color: #CCCCFF;min-height: 900px">
+    <div style="min-height: 900px">
         <div class="container" style="margin-top: -20px;margin-bottom: -40px">
             <div class="row" style="margin-top: 20px;margin-bottom: 40px">
                 <div class="col-md-8">
@@ -102,7 +102,6 @@
         </div>
     </div>
     <script>
-
         var editor = new Simditor({
             textarea: $('#editor'),
             toolbar: ['title', 'bold', 'italic', 'underline', 'color', '|', 'ol', 'blockquote', 'code', '|', 'link', 'image', 'emoji'],

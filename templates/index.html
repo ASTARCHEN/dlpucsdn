@@ -89,7 +89,7 @@
                                     </div>
                                     <div style="margin-top: 10px">
                                         <span><a href="{% url 'user_profile' t.auth.id %}"
-                                                 style="text-decoration: none">{{ t.auth }} </a> 创建于 {{ t.time_created | naturaltime }} 有({{ t.reply_count }})条评论 来自</span><span class="" id="count"><a href="{{ t.department_name.name }}">{{ t.department_name }}</a></span>
+                                                 style="text-decoration: none">{{ t.auth }} </a> 创建于 {{ t.time_created | naturaltime }} 有({{ t.reply_count }})条评论 来自</span><span class="" id="count"><small><a href="{{ t.department_name.name }}">{{ t.department_name }}</a></small></span>
                                     </div>
                                 </div>
                                 <div class="pull-right" style="margin-right: 10px;margin-top: 10px">
@@ -125,7 +125,7 @@
         <div class="container" style="text-align: center;line-height: 2">
 
             <div>
-                &copy;dlpucsdn.com 2013-2014
+                copyright &copy;dlpucsdn.com 2013-2015
                 <a href="{% url 'about' %}">&nbsp;&nbsp;&nbsp;关于我们</a>
                 <a href="https://github.com/tcitry" target="_blank"
                    style="margin-left: 10px;margin-right: 10px">联系作者</a>

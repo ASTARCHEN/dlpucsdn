@@ -215,7 +215,6 @@ th {
   pre,
   blockquote {
     border: 1px solid #999;
-
     page-break-inside: avoid;
   }
   thead {
@@ -1382,6 +1381,8 @@ pre {
   border-radius: 4px;
 }
 pre code {
+  /*my*/
+  overflow: scroll;
   padding: 0;
   font-size: inherit;
   color: inherit;

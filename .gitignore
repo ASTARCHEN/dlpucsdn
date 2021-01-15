@@ -1,2 +1,2 @@
-.idea
-*.pyc
+.idea/
+*/*.py[cod]

@@ -8,99 +8,86 @@
     position: relative;
     text-align: center;
 }
-
 #top {
     background-color: transparent;
 }
-
 #top a {
     /*color: #428bca;*/
     color: #D73C31;
 }
-
 #top a:hover {
     background-color: #f8f8f8;
 }
-
 #count {
     color: #ffffff;
     background-color: #c0c0c0;
-    padding: 2px 2px 2px 3px;
-    -moz-border-radius: 0.2em;
-    -webkit-border-radius: 0.2em;
-    border-radius: 0.2em;
+    padding: 1px;
+    -moz-border-radius: 0.1em;
+    -webkit-border-radius: 0.1em;
+    border-radius: 0.1em;
 }
-
+#count:hover{
+    color: #ffffff;
+    background-color: #D73C31;
+    padding: 2px 2px 2px 2px;
+    -moz-border-radius: 0.1em;
+    -webkit-border-radius: 0.1em;
+    border-radius: 0.1em;
+}
 #count a {
     cursor: pointer;
     color: #ffffff;
 }
-
 #count a:hover {
     text-decoration: none;
 }
-
 #user {
 }
-
 .banner {
     position: relative;
     overflow: auto;
 }
-
 .banner li {
     list-style: none;
 }
-
 .banner ul li {
     float: left;
 }
-
 a:hover {
     text-decoration: none;
 }
-
 .btn-blue {
     background-color: #5bc0de;
     color: #ffffff;
     font: bold;
 }
-
 .btn-red {
     margin: 5px;
     background-color: #D73C31;
     color: #ffffff;
     font: bold;
 }
-
 .btn-green {
     background-color: #C6E5E9;
     color: #ffffff;
     font: bold;
 }
-
 .btn-red:hover {
     background-color: #F0AD4E;
     color: #ffffff;
 }
-
 .forum-title a:hover {
     color: #D73C31;
 }
-
 .news a {
     color: #245269;
 }
-
 .news a:hover {
     color: #D73C31;
 }
-
 .news a:visited {
     color: #9999CC;
 }
-
 .blog a:hover {
     color: #D73C31;
 }
-

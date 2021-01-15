@@ -18,8 +18,8 @@ import qiniu.conf
 import qiniu.rs
 import qiniu.io
 
-qiniu.conf.ACCESS_KEY = "vco8VEaZwm24oxn9btpSdjVUMGUe21-K049IlIbl"
-qiniu.conf.SECRET_KEY = "jTUDwXmbx8uzSG-jEXAfigbQN8Aj3Q3-K6eDU6Ru"
+qiniu.conf.ACCESS_KEY = "定期更换密钥！"
+qiniu.conf.SECRET_KEY = "定期更换密钥！"
 
 
 def user_login(request):
@@ -42,7 +42,6 @@ def user_login(request):
         login(request, u)
         messages.add_message(request,messages.WARNING,u'你已登录')
         return HttpResponseRedirect(reverse('index'))
-
 
 def user_signup(request):
     if request.method == 'GET':
